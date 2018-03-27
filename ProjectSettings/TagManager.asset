@@ -6,11 +6,13 @@ TagManager:
   tags:
   - Background
   - Foreground
-  - Puff
   - Engine
-  - Ghost
-  - Thief
   - Squirt
+  - Pickups
+  - PickupsHull
+  - PickupsShell
+  - Enemy
+  - PlayerHull
   layers:
   - Default
   - TransparentFX
@@ -22,11 +24,11 @@ TagManager:
   - 
   - Background
   - Player
-  - Thief
+  - Enemy
   - Squirt
-  - 
-  - 
-  - 
+  - Shield
+  - Pickups
+  - Foreground
   - 
   - 
   - 
@@ -51,10 +53,13 @@ TagManager:
   - name: Background
     uniqueID: 3512901917
     locked: 0
+  - name: Pickups
+    uniqueID: 4225780191
+    locked: 0
   - name: Player
     uniqueID: 2525613839
     locked: 0
-  - name: Thief
+  - name: Enemy
     uniqueID: 957384485
     locked: 0
   - name: Squirt
